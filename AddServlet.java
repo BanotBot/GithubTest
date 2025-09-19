@@ -45,6 +45,9 @@ public class AddServlet extends HttpServlet
 			 System.out.println("Minus Result => " + minusResult);
 			 System.out.println("Divide Result => " + divide);
 			 System.out.println("Multiply Result => " + multiply);
+			
+
+			 //This is a new comment
 		    
 			//res.sendRedirect("sq?addResult=" + addResult); // SESSION MANAGEMENT where you can transfer data from another to another  
 			
