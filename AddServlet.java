@@ -32,7 +32,7 @@ public class AddServlet extends HttpServlet
 			 int minusResult = i - j;
 			 int divide = i / j;
 			 int multiply = i * j;
-		
+			 int modulus = i % j;
 			  
 			/*
 			 * PrintWriter display = res.getWriter();
@@ -45,7 +45,7 @@ public class AddServlet extends HttpServlet
 			 System.out.println("Minus Result => " + minusResult);
 			 System.out.println("Divide Result => " + divide);
 			 System.out.println("Multiply Result => " + multiply);
-			
+			 System.out.println("Modulus Result => " + modulus);
 
 			 //This is a new comment
 		    
