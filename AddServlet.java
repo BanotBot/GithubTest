@@ -29,6 +29,7 @@ public class AddServlet extends HttpServlet
 			int j = Integer.parseInt(req.getParameter("num2"));
 
 		    int addResult = i + j;
+			 int minusResult = i - j;
 			  
 			/*
 			 * PrintWriter display = res.getWriter();
@@ -38,6 +39,7 @@ public class AddServlet extends HttpServlet
 		    
 		    System.out.println("Num1 " + i);
 		    System.out.println("Num2 " + j);
+			 System.out.println("Minus Result => " + minusResult);
 		    
 			//res.sendRedirect("sq?addResult=" + addResult); // SESSION MANAGEMENT where you can transfer data from another to another  
 			
