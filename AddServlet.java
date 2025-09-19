@@ -32,6 +32,7 @@ public class AddServlet extends HttpServlet
 			 int minusResult = i - j;
 			 int divide = i / j;
 			 int multiply = i * j;
+		
 			  
 			/*
 			 * PrintWriter display = res.getWriter();
